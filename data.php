@@ -4,7 +4,7 @@ include_once 'keys.php';
 header('Content-Type: application/json');
 $city = "Smyrna";
 $state = "DE";
-$json;
+$json = json_encode(array('status'=>'An error has occurred on the server.'));
 
 if(isset($_GET['city'])) {
   if(strlen($_GET['city']) > 0) {
