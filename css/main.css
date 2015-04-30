@@ -1,0 +1,81 @@
+.primary-container {
+  margin-top: 30px;
+}
+
+.current-cond-container {
+  border: 1px solid #acacac;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.temp-and-icon {
+
+}
+
+.current-cond-city {
+  border-bottom: 2px solid #acacac;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.temp-icon-cont {
+
+}
+
+.current-cond-icon {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.current-cond-temp {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.current-cond-text {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.extended-forecast-cont {
+  margin-top: 15px;
+}
+
+.extended-forecast-high, .extended-forecast-low, .extended-forecast-date {
+  margin-bottom: 0;
+}
+
+.extended-forecast-date {
+  border-bottom: 2px solid #acacac;
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.extended-forecast-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.extended-forecast-high, .extended-forecast-low {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.extended-forecast-high span, .extended-forecast-low span {
+  font-size: .75em;
+  font-weight: normal;
+  margin-right: 7px;
+}
+
+.day {
+  border: 1px solid #acacac;
+  padding: 5px;
+  margin-left: 5px;
+}
