@@ -6,20 +6,14 @@
   border: 1px solid #acacac;
   padding: 5px;
   margin-right: 5px;
-}
-
-.temp-and-icon {
-
+  min-height: 220px;
 }
 
 .current-cond-city {
   border-bottom: 2px solid #acacac;
   padding-bottom: 5px;
   margin-bottom: 5px;
-}
-
-.temp-icon-cont {
-
+  font-size: 1.25em;
 }
 
 .current-cond-icon {
@@ -39,6 +33,11 @@
   text-align: center;
   margin-top: 5px;
   font-weight: bold;
+}
+
+.current-cond-wind {
+  text-align: center;
+  margin-bottom: 17px;
 }
 
 .extended-forecast-cont {
@@ -68,6 +67,12 @@
   font-weight: bold;
 }
 
+.extended-forecast-low {
+  border-bottom: 1px solid #acacac;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
 .extended-forecast-high span, .extended-forecast-low span {
   font-size: .75em;
   font-weight: normal;
@@ -78,4 +83,8 @@
   border: 1px solid #acacac;
   padding: 5px;
   margin-left: 5px;
+}
+
+.wind {
+  text-align: center;
 }
