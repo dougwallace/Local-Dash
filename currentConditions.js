@@ -11,7 +11,6 @@ $(function() {
         if(data.status) {
           console.error(data.status);
         }else {
-          console.log(data);
           $($locale.find('.current-cond-city')[0]).html(data.current_observation.display_location.full);
           $($locale.find('.current-cond-temp')[0]).html(data.current_observation.feelslike_f+'&deg; F');
           $($locale.find('.current-cond-text')[0]).html(data.current_observation.weather);

@@ -10,12 +10,10 @@ $(function() {
           days,
           template,
           container = $locale.find('.extended-forecast-cont')[0];
-      console.log(container);
       $.getJSON( 'data.php?10_day&city='+city+'&state='+state, function( data ) {
         if(data.status) {
           console.error(data.status);
         }else {
-          console.log(data.forecast.simpleforecast.forecastday);
           days = data.forecast.simpleforecast.forecastday;
           for(var i=0; i<5; i++) {
             template = '<div class="two columns day">';

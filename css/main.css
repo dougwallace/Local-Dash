@@ -88,3 +88,9 @@
 .wind {
   text-align: center;
 }
+
+@media (min-width: 400px) {
+  .day {
+    margin-left: 0;
+  }
+}
